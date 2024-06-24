@@ -40,3 +40,5 @@
 	H.mind.adjust_skillrank(/datum/skill/misc/sewing, 3, TRUE)	
 	H.mind.adjust_skillrank(/datum/skill/misc/medicine, 2, TRUE)
 	H.change_stat("perception", 3)
+	H.change_stat("speed", 2)
+	H.change_stat("endurance", 1)
