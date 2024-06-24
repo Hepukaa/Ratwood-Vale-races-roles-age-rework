@@ -96,7 +96,8 @@
 			l_hand = /obj/item/rogueweapon/sword/iron
 			H.change_stat("constitution", 2)
 			H.change_stat("strength", 1)
-			H.change_stat("speed", 1)
+			H.change_stat("speed", 2)
+			H.change_stat("endurance", 1)
 
 	if(H.dna?.species)
 		if(iself(H) || ishalfelf(H))
