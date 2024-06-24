@@ -62,9 +62,11 @@
 		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/medicine, 3, TRUE)
-		H.change_stat("perception", 1)
-		H.change_stat("intelligence", 4)
+		H.change_stat("strength", 2)
+		H.change_stat("constitution", 1)
 		H.change_stat("endurance", 1)
+		H.change_stat("perception", 2)
+		H.change_stat("intelligence", 2)
 	H.verbs |= /mob/proc/haltyell
 	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
