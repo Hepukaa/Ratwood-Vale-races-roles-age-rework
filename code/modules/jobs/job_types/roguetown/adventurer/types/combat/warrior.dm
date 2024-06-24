@@ -38,9 +38,11 @@
 			H.mind.adjust_skillrank(/datum/skill/misc/riding, pick(2,3), TRUE)
 			H.mind.adjust_skillrank(/datum/skill/misc/medicine, 1, TRUE)
 			H.change_stat("strength", 2)
-			H.change_stat("endurance", 2) // 7 stat points total as a low-skill martial role without magic. Compared to Pally with 5 points.
+			H.change_stat("endurance", 1) // 7 stat points total as a low-skill martial role without magic. Compared to Pally with 5 points.
 			H.change_stat("constitution", 2)
 			H.change_stat("speed", 1)
+			H.change_stat("intelligence", -1)
+			H.change_stat("perception", 1)
 			shoes = /obj/item/clothing/shoes/roguetown/boots
 			gloves = /obj/item/clothing/gloves/roguetown/leather
 			belt = /obj/item/storage/belt/rogue/leather
