@@ -51,5 +51,5 @@
 	ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
 	H.change_stat("strength", -1)
 	H.change_stat("perception", 2)
-	H.change_stat("speed", pick(3,4))
+	H.change_stat("speed", 3)
 	H.change_stat("intelligence", 2)
